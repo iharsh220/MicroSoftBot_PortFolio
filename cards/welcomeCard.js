@@ -20,7 +20,7 @@ function getWelcomeCard() {
             },
             {
                 type: "TextBlock",
-                text: "Full Stack Developer | AI Enthusiast | Tech Innovator",
+                text: "Backend Engineer | NodeJS | AI Enthusiast | Tech Innovator",
                 size: "Small",
                 horizontalAlignment: "Center",
                 isSubtle: true,

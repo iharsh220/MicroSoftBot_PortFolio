@@ -12,7 +12,7 @@ function getAboutCard() {
             },
             {
                 type: "TextBlock",
-                text: "Hi, I am Harsh Gohil — a passionate Full Stack Developer specializing in AI, Web3, and Cloud Technologies. I build innovative solutions that help businesses grow.",
+                text: "Hi, I am Harsh Gohil — a passionate Backend Engineer specializing in Nodejs, AI, Web3, and Cloud Technologies. I build innovative solutions that help businesses grow.",
                 wrap: true,
                 spacing: "Small"
             },
