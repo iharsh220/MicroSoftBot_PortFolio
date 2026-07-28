@@ -1,5 +1,5 @@
 function getResumeCard() {
-    const baseUrl = process.env.NGROK_URL || "alembicdigilabs.in";
+    const baseUrl = process.env.NGROK_URL || "micro-soft-bot-port-folio.vercel.app";
     return {
         type: "AdaptiveCard",
         version: "1.4",

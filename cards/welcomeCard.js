@@ -1,12 +1,12 @@
 function getWelcomeCard() {
-    const baseUrl = process.env.NGROK_URL || "alembicdigilabs.in";
+    const baseUrl = process.env.NGROK_URL || "micro-soft-bot-port-folio.vercel.app";
     return {
         type: "AdaptiveCard",
         version: "1.4",
         body: [
             {
                 type: "Image",
-                url: "https://alembicdigilabs.in/icon.png",
+                url: "https://micro-soft-bot-port-folio.vercel.app/icon.png",
                 size: "Small",
                 style: "Person",
                 horizontalAlignment: "Center"

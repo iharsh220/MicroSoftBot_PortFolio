@@ -12,8 +12,8 @@ function getContactCard() {
             {
                 type: "FactSet",
                 facts: [
-                    { title: "Email:", value: "harsh@alembicdigilabs.in" },
-                    { title: "Website:", value: "https://alembicdigilabs.in" },
+                    { title: "Email:", value: "harsh@micro-soft-bot-port-folio.vercel.app" },
+                    { title: "Website:", value: "https://micro-soft-bot-port-folio.vercel.app" },
                     { title: "LinkedIn:", value: "https://linkedin.com/in/harshgohil" },
                     { title: "GitHub:", value: "https://github.com/harshgohil" }
                 ]

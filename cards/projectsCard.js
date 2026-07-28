@@ -27,7 +27,7 @@ function getProjectsCard() {
                     {
                         type: "Action.OpenUrl",
                         title: "Visit Website",
-                        url: "https://alembicdigilabs.in"
+                        url: "https://micro-soft-bot-port-folio.vercel.app"
                     }
                 ]
             }
