@@ -20,7 +20,7 @@ function getAboutCard() {
                 type: "FactSet",
                 facts: [
                     { title: "Experience:", value: "8+ years" },
-                    { title: "Specialization:", value: "Full Stack & AI" },
+                    { title: "Specialization:", value: "Backend Engineer & AI" },
                     { title: "Company:", value: "Alembic Digilabs" },
                     { title: "Location:", value: "India" }
                 ]

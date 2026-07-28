@@ -48,7 +48,7 @@ function getServicesCard() {
                             },
                             {
                                 type: "TextBlock",
-                                text: "React, Node.js, Full Stack",
+                                text: "React, Node.js, Backend Engineer",
                                 size: "Small",
                                 isSubtle: true
                             }

@@ -17,7 +17,7 @@ function getProjectsCard() {
             },
             {
                 type: "TextBlock",
-                text: "• Microsoft Teams Bots\n• AI Chatbots\n• Full Stack Web Applications\n• WhatsApp Automation\n• Enterprise Solutions\n• Custom CRM & ERP Systems",
+                text: "• Microsoft Teams Bots\n• AI Chatbots\n• Backend Engineer Web Applications\n• WhatsApp Automation\n• Enterprise Solutions\n• Custom CRM & ERP Systems",
                 wrap: true,
                 spacing: "Small"
             },
