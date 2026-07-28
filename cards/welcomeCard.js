@@ -1,4 +1,5 @@
 function getWelcomeCard() {
+    const baseUrl = process.env.NGROK_URL || "alembicdigilabs.in";
     return {
         type: "AdaptiveCard",
         version: "1.4",
@@ -12,7 +13,7 @@ function getWelcomeCard() {
             },
             {
                 type: "TextBlock",
-                text: "👋 Namaste! Main Harsh ka bot hoon",
+                text: "Harsh Gohil",
                 weight: "Bolder",
                 size: "Large",
                 horizontalAlignment: "Center"
@@ -27,7 +28,7 @@ function getWelcomeCard() {
             },
             {
                 type: "TextBlock",
-                text: "Niche se koi option choose karein ya apna sawal bhejein!",
+                text: "Hi, I am Harsh Gohil. How can I help you today?",
                 wrap: true,
                 horizontalAlignment: "Center",
                 spacing: "Small"
@@ -35,23 +36,28 @@ function getWelcomeCard() {
         ],
         actions: [
             {
+                type: "Action.OpenUrl",
+                title: "Download Resume",
+                url: `https://${baseUrl}/microsoft/api/messages/files/resume/Harsh_Gohil_Backend_Enginner_.pdf`
+            },
+            {
                 type: "Action.Submit",
-                title: "👤 About Me",
+                title: "About Me",
                 data: { type: "menu", value: "about" }
             },
             {
                 type: "Action.Submit",
-                title: "💼 My Projects",
+                title: "My Projects",
                 data: { type: "menu", value: "projects" }
             },
             {
                 type: "Action.Submit",
-                title: "🛠️ Services",
+                title: "Services",
                 data: { type: "menu", value: "services" }
             },
             {
                 type: "Action.Submit",
-                title: "📞 Contact Me",
+                title: "Contact Me",
                 data: { type: "menu", value: "contact" }
             }
         ],

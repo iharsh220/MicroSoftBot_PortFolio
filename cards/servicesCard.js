@@ -5,13 +5,13 @@ function getServicesCard() {
         body: [
             {
                 type: "TextBlock",
-                text: "🛠️ Services",
+                text: "Services",
                 weight: "Bolder",
                 size: "Medium"
             },
             {
                 type: "TextBlock",
-                text: "Meri expert services:",
+                text: "End-to-end services I offer:",
                 wrap: true,
                 spacing: "Small"
             },
@@ -24,7 +24,7 @@ function getServicesCard() {
                         items: [
                             {
                                 type: "TextBlock",
-                                text: "🤖 Bot Development",
+                                text: "Bot Development",
                                 weight: "Bolder",
                                 size: "Small"
                             },
@@ -42,7 +42,7 @@ function getServicesCard() {
                         items: [
                             {
                                 type: "TextBlock",
-                                text: "🌐 Web Development",
+                                text: "Web Development",
                                 weight: "Bolder",
                                 size: "Small"
                             },
@@ -65,7 +65,7 @@ function getServicesCard() {
                         items: [
                             {
                                 type: "TextBlock",
-                                text: "☁️ Cloud & DevOps",
+                                text: "Cloud & DevOps",
                                 weight: "Bolder",
                                 size: "Small"
                             },
@@ -83,7 +83,7 @@ function getServicesCard() {
                         items: [
                             {
                                 type: "TextBlock",
-                                text: "🧠 AI & Automation",
+                                text: "AI & Automation",
                                 weight: "Bolder",
                                 size: "Small"
                             },
@@ -101,7 +101,7 @@ function getServicesCard() {
         actions: [
             {
                 type: "Action.Submit",
-                title: "⬅️ Back to Menu",
+                title: "Back to Menu",
                 data: { type: "menu", value: "menu" }
             }
         ],

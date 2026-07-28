@@ -5,7 +5,7 @@ function getContactCard() {
         body: [
             {
                 type: "TextBlock",
-                text: "📞 Contact Me",
+                text: "Contact Me",
                 weight: "Bolder",
                 size: "Medium"
             },
@@ -20,7 +20,7 @@ function getContactCard() {
             },
             {
                 type: "TextBlock",
-                text: "Ya directly message karein! Main jald reply dunga 😊",
+                text: "Feel free to reach out. I respond quickly.",
                 wrap: true,
                 spacing: "Small",
                 isSubtle: true
@@ -29,7 +29,7 @@ function getContactCard() {
         actions: [
             {
                 type: "Action.Submit",
-                title: "⬅️ Back to Menu",
+                title: "Back to Menu",
                 data: { type: "menu", value: "menu" }
             }
         ],

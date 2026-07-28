@@ -5,7 +5,7 @@ function getMenuCard() {
         body: [
             {
                 type: "TextBlock",
-                text: "📋 Main Menu",
+                text: "Main Menu",
                 weight: "Bolder",
                 size: "Medium",
                 horizontalAlignment: "Center"
@@ -14,22 +14,27 @@ function getMenuCard() {
         actions: [
             {
                 type: "Action.Submit",
-                title: "👤 About Me",
+                title: "About Me",
                 data: { type: "menu", value: "about" }
             },
             {
                 type: "Action.Submit",
-                title: "💼 My Projects",
+                title: "Resume & Cover Letter",
+                data: { type: "menu", value: "resume" }
+            },
+            {
+                type: "Action.Submit",
+                title: "My Projects",
                 data: { type: "menu", value: "projects" }
             },
             {
                 type: "Action.Submit",
-                title: "🛠️ Services",
+                title: "Services",
                 data: { type: "menu", value: "services" }
             },
             {
                 type: "Action.Submit",
-                title: "📞 Contact Me",
+                title: "Contact Me",
                 data: { type: "menu", value: "contact" }
             }
         ],

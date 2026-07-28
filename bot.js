@@ -5,6 +5,7 @@ const { getAboutCard } = require('./cards/aboutCard');
 const { getContactCard } = require('./cards/contactCard');
 const { getProjectsCard } = require('./cards/projectsCard');
 const { getServicesCard } = require('./cards/servicesCard');
+const { getResumeCard } = require('./cards/resumeCard');
 
 class TeamsBot extends ActivityHandler {
     constructor() {
@@ -30,7 +31,7 @@ class TeamsBot extends ActivityHandler {
 
             if (!keyword) {
                 await context.sendActivity({
-                    text: "Main Menu:",
+                    text: "Welcome! Please choose an option below.",
                     attachments: [CardFactory.adaptiveCard(getMenuCard())]
                 });
                 await next();
@@ -40,25 +41,31 @@ class TeamsBot extends ActivityHandler {
             switch (keyword) {
                 case 'about':
                     await context.sendActivity({
-                        text: "Mere baare mein:",
+                        text: "About Me:",
                         attachments: [CardFactory.adaptiveCard(getAboutCard())]
+                    });
+                    break;
+                case 'resume':
+                    await context.sendActivity({
+                        text: "Resume & Cover Letter:",
+                        attachments: [CardFactory.adaptiveCard(getResumeCard())]
                     });
                     break;
                 case 'projects':
                     await context.sendActivity({
-                        text: "Meri projects:",
+                        text: "My Projects:",
                         attachments: [CardFactory.adaptiveCard(getProjectsCard())]
                     });
                     break;
                 case 'services':
                     await context.sendActivity({
-                        text: "Meri services:",
+                        text: "Services:",
                         attachments: [CardFactory.adaptiveCard(getServicesCard())]
                     });
                     break;
                 case 'contact':
                     await context.sendActivity({
-                        text: "Contact details:",
+                        text: "Contact Details:",
                         attachments: [CardFactory.adaptiveCard(getContactCard())]
                     });
                     break;
@@ -69,14 +76,14 @@ class TeamsBot extends ActivityHandler {
                     });
                     break;
                 default:
-                    if (['hi', 'hello', 'hey', 'namaste', 'start', 'help'].includes(keyword)) {
+                    if (['hi', 'hello', 'hey', 'start', 'help'].includes(keyword)) {
                         await context.sendActivity({
-                            text: "Namaste! Niche se option choose karein 👇",
+                            text: "Hello! Please choose an option below.",
                             attachments: [CardFactory.adaptiveCard(getMenuCard())]
                         });
                     } else {
                         await context.sendActivity({
-                            text: `"${text}" — samajh nahi aaya. Menu se choose karein 👇`,
+                            text: `"${text}" — I did not understand that. Please use the menu below.`,
                             attachments: [CardFactory.adaptiveCard(getMenuCard())]
                         });
                     }
@@ -89,7 +96,7 @@ class TeamsBot extends ActivityHandler {
 
     async sendProactiveMessage(context) {
         await context.sendActivity({
-            text: "👋 Namaste! Main Harsh ka bot hoon. Main aapki kaise help kar sakta hoon?",
+            text: "Hello! I am Harsh Gohil's bot. How can I assist you today?",
             attachments: [CardFactory.adaptiveCard(getWelcomeCard())]
         });
     }

@@ -1,4 +1,4 @@
-function getAboutCard() {
+function getResumeCard() {
     const baseUrl = process.env.NGROK_URL || "alembicdigilabs.in";
     return {
         type: "AdaptiveCard",
@@ -6,24 +6,15 @@ function getAboutCard() {
         body: [
             {
                 type: "TextBlock",
-                text: "About Me",
+                text: "Resume & Cover Letter",
                 weight: "Bolder",
                 size: "Medium"
             },
             {
                 type: "TextBlock",
-                text: "Hi, I am Harsh Gohil — a passionate Full Stack Developer specializing in AI, Web3, and Cloud Technologies. I build innovative solutions that help businesses grow.",
+                text: "You can download my resume and cover letter using the buttons below.",
                 wrap: true,
                 spacing: "Small"
-            },
-            {
-                type: "FactSet",
-                facts: [
-                    { title: "Experience:", value: "8+ years" },
-                    { title: "Specialization:", value: "Full Stack & AI" },
-                    { title: "Company:", value: "Alembic Digilabs" },
-                    { title: "Location:", value: "India" }
-                ]
             }
         ],
         actions: [
@@ -47,4 +38,4 @@ function getAboutCard() {
     };
 }
 
-module.exports = { getAboutCard };
+module.exports = { getResumeCard };

@@ -5,19 +5,19 @@ function getProjectsCard() {
         body: [
             {
                 type: "TextBlock",
-                text: "💼 My Projects",
+                text: "My Projects",
                 weight: "Bolder",
                 size: "Medium"
             },
             {
                 type: "TextBlock",
-                text: "Main ne kai projects banaye hain:",
+                text: "I have built and delivered multiple projects across domains:",
                 wrap: true,
                 spacing: "Small"
             },
             {
                 type: "TextBlock",
-                text: "✅ Microsoft Teams Bots\n✅ AI Chatbots\n✅ Full Stack Web Apps\n✅ WhatsApp Automation\n✅ Enterprise Solutions\n✅ Custom CRM & ERPs",
+                text: "• Microsoft Teams Bots\n• AI Chatbots\n• Full Stack Web Applications\n• WhatsApp Automation\n• Enterprise Solutions\n• Custom CRM & ERP Systems",
                 wrap: true,
                 spacing: "Small"
             },
@@ -26,7 +26,7 @@ function getProjectsCard() {
                 actions: [
                     {
                         type: "Action.OpenUrl",
-                        title: "🌐 Visit Website",
+                        title: "Visit Website",
                         url: "https://alembicdigilabs.in"
                     }
                 ]
@@ -35,7 +35,7 @@ function getProjectsCard() {
         actions: [
             {
                 type: "Action.Submit",
-                title: "⬅️ Back to Menu",
+                title: "Back to Menu",
                 data: { type: "menu", value: "menu" }
             }
         ],

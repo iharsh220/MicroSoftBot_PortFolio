@@ -20,6 +20,11 @@ app.use(
     express.static(path.join(__dirname, "public"))
 );
 
+app.use(
+    "/microsoft/api/messages/files",
+    express.static(path.join(__dirname, "files"))
+);
+
 const {
     MicrosoftAppId,
     MicrosoftAppPassword,
