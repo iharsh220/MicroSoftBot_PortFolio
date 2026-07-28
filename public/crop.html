@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crop Image</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/croppie/croppie.css" />
+    <script src="https://cdn.jsdelivr.net/npm/croppie/croppie.min.js"></script>
+    <script src="https://res.cdn.office.net/teams-js/2.0.0/js/MicrosoftTeams.min.js"></script>
+</head>
+
+<body style="text-align:center; font-family: Arial;">
+
+<h2>Upload & Crop</h2>
+
+<input type="file" id="upload" />
+<div id="cropper"></div>
+
+<br>
+<button onclick="cropImage()">✅ Crop & Send</button>
+
+<script>
+    microsoftTeams.app.initialize();
+
+    const cropper = new Croppie(document.getElementById('cropper'), {
+        viewport: { width: 200, height: 200 },
+        boundary: { width: 300, height: 300 }
+    });
+
+    document.getElementById('upload').addEventListener('change', function (e) {
+        const reader = new FileReader();
+
+        reader.onload = function (event) {
+            cropper.bind({
+                url: event.target.result
+            });
+        };
+
+        reader.readAsDataURL(e.target.files[0]);
+    });
+
+    function cropImage() {
+        cropper.result({
+            type: 'base64',
+            size: 'viewport'
+        }).then(function (base64) {
+
+            microsoftTeams.tasks.submitTask({
+                image: base64
+            });
+
+        });
+    }
+</script>
+
+</body>
+</html>
