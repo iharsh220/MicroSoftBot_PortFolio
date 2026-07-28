@@ -32,7 +32,7 @@ const {
     PORT,
     NGROK_URL
 } = process.env;
-console.log("App id found");
+
 if (!MicrosoftAppId) {
     throw new Error("MicrosoftAppId missing");
 }
