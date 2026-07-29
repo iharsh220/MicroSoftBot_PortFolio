@@ -5,4 +5,4 @@ async function handleAbout(context) {
   await card(context, 'About Me:', getAboutCard());
 }
 
-module.exports = { handleAbout };
+module.exports = handleAbout;

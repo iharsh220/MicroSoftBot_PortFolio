@@ -5,4 +5,4 @@ async function handleSkills(context) {
   await card(context, 'Technical Skills:', getSkillsCard());
 }
 
-module.exports = { handleSkills };
+module.exports = handleSkills;

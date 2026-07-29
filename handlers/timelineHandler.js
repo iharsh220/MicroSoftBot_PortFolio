@@ -5,4 +5,4 @@ async function handleTimeline(context) {
   await card(context, 'Career Timeline:', getTimelineCard());
 }
 
-module.exports = { handleTimeline };
+module.exports = handleTimeline;

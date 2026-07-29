@@ -5,4 +5,4 @@ async function handleService(context) {
   await card(context, 'Services:', getServicesCard());
 }
 
-module.exports = { handleService };
+module.exports = handleService;

@@ -80,4 +80,4 @@ async function showQuestion(context, session) {
   await card(context, '', getQuestionCard(q.question, q.options, session.currentIndex, interviewData.questions.length));
 }
 
-module.exports = { handleInterview };
+module.exports = handleInterview;

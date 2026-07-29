@@ -5,4 +5,4 @@ async function handleExperience(context) {
   await card(context, 'Work Experience:', getExperienceCard());
 }
 
-module.exports = { handleExperience };
+module.exports = handleExperience;

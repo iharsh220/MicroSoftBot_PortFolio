@@ -5,4 +5,4 @@ async function handleFaq(context) {
   await card(context, 'Frequently Asked Questions:', getFaqCard());
 }
 
-module.exports = { handleFaq };
+module.exports = handleFaq;

@@ -5,4 +5,4 @@ async function handleEducation(context) {
   await card(context, 'Education:', getEducationCard());
 }
 
-module.exports = { handleEducation };
+module.exports = handleEducation;

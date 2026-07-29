@@ -5,4 +5,4 @@ async function handleArchitecture(context) {
   await card(context, 'Bot Architecture:', getArchitectureCard());
 }
 
-module.exports = { handleArchitecture };
+module.exports = handleArchitecture;

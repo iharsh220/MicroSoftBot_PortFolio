@@ -5,4 +5,4 @@ async function handleHelp(context) {
   await card(context, 'Main Menu:', getMenuCard());
 }
 
-module.exports = { handleHelp };
+module.exports = handleHelp;

@@ -1,6 +1,5 @@
 const { card, text } = require('../utils/reply');
 const { getRepositories } = require('../services/githubService');
-const { CardFactory } = require('botbuilder');
 
 async function handleGithub(context) {
   try {
@@ -66,4 +65,4 @@ async function handleGithub(context) {
   }
 }
 
-module.exports = { handleGithub };
+module.exports = handleGithub;

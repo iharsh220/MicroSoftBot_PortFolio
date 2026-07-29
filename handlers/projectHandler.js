@@ -5,4 +5,4 @@ async function handleProject(context) {
   await card(context, 'My Projects:', getProjectsCard());
 }
 
-module.exports = { handleProject };
+module.exports = handleProject;

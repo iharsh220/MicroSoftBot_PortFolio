@@ -5,4 +5,4 @@ async function handleResume(context) {
   await card(context, 'Resume & Cover Letter:', getResumeCard());
 }
 
-module.exports = { handleResume };
+module.exports = handleResume;
