@@ -1,0 +1,44 @@
+{
+  "experiences": [
+    {
+      "company": "Alembic Pharmaceuticals Limited",
+      "role": "Senior Backend Developer (Executive)",
+      "period": "Mar 2024 – Present",
+      "location": "Mumbai, Maharashtra, India",
+      "description": "Designing and managing scalable backend APIs, database integrations, and cloud deployments on AWS EC2 with Nginx and PM2 for critical pharmaceutical industry applications.",
+      "highlights": [
+        "Engineered a video generation system using FFMPEG that overlays doctor photos and names onto promotional videos for medical field representatives",
+        "Built an analytics dashboard tracking employee output across artwork, video, content, and web with artist-level and division-level drill-downs",
+        "Developed a medical education platform allowing doctors to consume instructional videos and complete post-watch quizzes for CME compliance tracking"
+      ]
+    },
+    {
+      "company": "Predoole Analytics Pvt. Ltd.",
+      "role": "Senior Full Stack Developer & Team Lead",
+      "period": "Mar 2018 – Mar 2024",
+      "location": "Mumbai, Maharashtra, India",
+      "description": "Led a cross-functional team of 6 engineers building enterprise analytics and data integration products. Owned architecture decisions, code reviews, sprint planning, and client delivery across 6 years.",
+      "highlights": [
+        "Architected a multi-platform chatbot with Qlik Sense integration delivering live charts and KPIs across Microsoft Teams, Google Assistant, Alexa, WhatsApp, and Telegram from a single backend",
+        "Designed and shipped a Qlik Sense annotation extension enabling object and chart-level annotations inside dashboards for collaborative data storytelling",
+        "Built a log clustering and visualisation tool using Python, Node.js, and Elasticsearch, dramatically cutting mean-time-to-diagnose for operations teams",
+        "Led automated Tableau-to-Power BI migration using LLM-assisted transformation pipelines, cutting migration effort by ~60%",
+        "Built a full Qlik Sense Section Access management portal with role-based access control, audit logging, and data security enforcement",
+        "Developed a machine-locked SaaS license generation and validation system binding each license cryptographically to hardware fingerprints",
+        "Created a production-grade Windows installer and background service using InnoSetup and Pascal with auto-startup via NSSM service manager"
+      ]
+    },
+    {
+      "company": "Independent Freelance Consultant",
+      "role": "Backend & Full Stack Developer",
+      "period": "2016 – 2022",
+      "location": "Remote",
+      "description": "Delivered bespoke backend solutions for clients across media, marketing, and communications sectors, specialising in video streaming infrastructure, API integrations, and intelligent chatbot systems.",
+      "highlights": [
+        "Architected a full OTT platform where channel owners upload movies and web series; videos are transcoded via Bunny API into HLS format for adaptive streaming on Android and web",
+        "Integrated Meta Ads API into a client chatbot enabling campaign data fetch, performance reporting, and automated OAuth token renewal",
+        "Built a dynamic voice-based agent transfer workflow connecting ChatBotBuilder with Retell for real-time call escalation from chatbot to human agents"
+      ]
+    }
+  ]
+}

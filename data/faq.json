@@ -1,0 +1,32 @@
+{
+  "questions": [
+    {
+      "q": "Are you available for hire?",
+      "a": "Yes, I am open to new opportunities. Feel free to reach out."
+    },
+    {
+      "q": "Current notice period?",
+      "a": "Typically 60 days, but negotiable depending on the role."
+    },
+    {
+      "q": "Do you work remotely?",
+      "a": "Yes, I am comfortable with remote and hybrid work arrangements."
+    },
+    {
+      "q": "Do you do freelancing?",
+      "a": "Yes, I take on freelance projects for backend and full stack development."
+    },
+    {
+      "q": "What is your expected salary?",
+      "a": "Depends on the role, scope, and responsibilities. Let's discuss."
+    },
+    {
+      "q": "What technologies do you work with?",
+      "a": "Node.js, Express, Nest.js, React, PostgreSQL, MongoDB, AWS, Azure, and more."
+    },
+    {
+      "q": "How many years of experience do you have?",
+      "a": "I have 8+ years of experience in backend and full stack development."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "categories": [
+    {
+      "category": "Backend",
+      "skills": ["Node.js", "Express.js", "Nest.js", "Microservices", "REST APIs", "Redis"]
+    },
+    {
+      "category": "Databases",
+      "skills": ["MySQL", "PostgreSQL", "MongoDB", "Elasticsearch"]
+    },
+    {
+      "category": "Frontend",
+      "skills": ["ReactJS", "Next.js", "AngularJS", "HTML/CSS", "JavaScript", "jQuery", "Bootstrap", "Material UI"]
+    },
+    {
+      "category": "Cloud & DevOps",
+      "skills": ["AWS EC2", "Nginx", "PM2", "AWS Lambda", "Microsoft Azure", "Google Cloud"]
+    },
+    {
+      "category": "AI & Chatbots",
+      "skills": ["Dialogflow", "Rasa", "Alexa Skills Kit", "Microsoft Bot Framework", "WhatsApp API", "Retell"]
+    },
+    {
+      "category": "BI Tools",
+      "skills": ["Qlik Sense API", "Power BI", "Tableau"]
+    },
+    {
+      "category": "Other",
+      "skills": ["FFMPEG", "RegEx", "InnoSetup", "Pascal", "NSSM", "Bunny API", "Meta Ads API"]
+    }
+  ]
+}

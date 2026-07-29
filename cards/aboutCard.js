@@ -12,7 +12,7 @@ function getAboutCard() {
             },
             {
                 type: "TextBlock",
-                text: "Hi, I am Harsh Gohil — a passionate Backend Engineer specializing in Nodejs, AI, Web3, and Cloud Technologies. I build innovative solutions that help businesses grow.",
+                text: "Results-driven Senior Backend Developer with 8+ years of experience designing and delivering scalable, enterprise-grade SaaS products across the pharmaceutical, analytics, and media industries. Proven track record of architecting end-to-end solutions — from API design and database modeling to cloud deployment — both as a team lead and independently.",
                 wrap: true,
                 spacing: "Small"
             },
@@ -20,9 +20,9 @@ function getAboutCard() {
                 type: "FactSet",
                 facts: [
                     { title: "Experience:", value: "8+ years" },
-                    { title: "Specialization:", value: "Backend Engineer & AI" },
-                    { title: "Company:", value: "Alembic Digilabs" },
-                    { title: "Location:", value: "India" }
+                    { title: "Specialization:", value: "Backend Developer & Full Stack Engineer" },
+                    { title: "Current Company:", value: "Alembic Pharmaceuticals" },
+                    { title: "Location:", value: "Mumbai, Maharashtra, India" }
                 ]
             }
         ],

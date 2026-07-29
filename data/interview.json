@@ -1,0 +1,44 @@
+{
+  "questions": [
+    {
+      "question": "What is Node.js?",
+      "options": ["A runtime environment", "A database", "A frontend framework", "A programming language"],
+      "correct": 0
+    },
+    {
+      "question": "Which database is MongoDB?",
+      "options": ["SQL", "NoSQL", "Graph DB", "Key-Value"],
+      "correct": 1
+    },
+    {
+      "question": "What does REST stand for?",
+      "options": ["Representational State Transfer", "Remote Execution Service Transfer", "Resource Encoding Standard Transfer", "None of the above"],
+      "correct": 0
+    },
+    {
+      "question": "Which HTTP method is idempotent?",
+      "options": ["GET", "POST", "PATCH", "Both A and C"],
+      "correct": 3
+    },
+    {
+      "question": "What is the purpose of Redis?",
+      "options": ["Relational database", "In-memory data store", "Message queue", "Web server"],
+      "correct": 1
+    },
+    {
+      "question": "Which protocol does HTTPS use?",
+      "options": ["FTP", "TCP", "TLS/SSL over TCP", "UDP"],
+      "correct": 2
+    },
+    {
+      "question": "What is a microservice?",
+      "options": ["A monolithic application", "A small, independent service", "A database type", "A frontend framework"],
+      "correct": 1
+    },
+    {
+      "question": "Which tool is used for container orchestration?",
+      "options": ["Docker", "Kubernetes", "Nginx", "PM2"],
+      "correct": 1
+    }
+  ]
+}

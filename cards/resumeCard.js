@@ -12,9 +12,16 @@ function getResumeCard() {
             },
             {
                 type: "TextBlock",
-                text: "You can download my resume and cover letter using the buttons below.",
+                text: "Harsh Gohil — Senior Backend Developer & Full Stack Engineer",
                 wrap: true,
                 spacing: "Small"
+            },
+            {
+                type: "TextBlock",
+                text: "8+ years of experience in backend and full stack development.",
+                wrap: true,
+                spacing: "Small",
+                isSubtle: true
             }
         ],
         actions: [

@@ -12,10 +12,11 @@ function getContactCard() {
             {
                 type: "FactSet",
                 facts: [
-                    { title: "Email:", value: "harsh@micro-soft-bot-port-folio.vercel.app" },
-                    { title: "Website:", value: "https://micro-soft-bot-port-folio.vercel.app" },
-                    { title: "LinkedIn:", value: "https://linkedin.com/in/harshgohil" },
-                    { title: "GitHub:", value: "https://github.com/harshgohil" }
+                    { title: "Phone:", value: "+91-8080302041" },
+                    { title: "Email:", value: "iharsh220@zohomail.in" },
+                    { title: "LinkedIn:", value: "linkedin.com/in/harsh-gohil-242706194" },
+                    { title: "GitHub:", value: "github.com/iharsh220" },
+                    { title: "Location:", value: "Mumbai, Maharashtra, India" }
                 ]
             },
             {

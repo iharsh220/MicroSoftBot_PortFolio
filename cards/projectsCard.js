@@ -11,13 +11,7 @@ function getProjectsCard() {
             },
             {
                 type: "TextBlock",
-                text: "I have built and delivered multiple projects across domains:",
-                wrap: true,
-                spacing: "Small"
-            },
-            {
-                type: "TextBlock",
-                text: "• Microsoft Teams Bots\n• AI Chatbots\n• Backend Engineer Web Applications\n• WhatsApp Automation\n• Enterprise Solutions\n• Custom CRM & ERP Systems",
+                text: "• Multi-Platform Chatbot with Qlik Sense Integration\n• Video Framer (FFMPEG-based promotional video generator)\n• Multiplex Video Streaming Platform (OTT with Bunny API)\n• Employee Dashboard (ReactJS · Node.js · MySQL)\n• Resync – Medical Education Platform\n• Qlik Sense Annotation Extension\n• Log Cluster – Log Visualisation Tool\n• Tableau-to-Power BI Migration Tool\n• DataAccessAuditor Portal\n• SaaS License Management System\n• Wowizer Windows Service",
                 wrap: true,
                 spacing: "Small"
             },

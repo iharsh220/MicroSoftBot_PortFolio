@@ -1,0 +1,64 @@
+{
+  "projects": [
+    {
+      "name": "Microsoft Teams Bot",
+      "description": "A portfolio chatbot built with Bot Framework SDK and Express, featuring intent-based routing, adaptive cards, and modular handler architecture.",
+      "tech": "Node.js, Bot Builder, Adaptive Cards"
+    },
+    {
+      "name": "Multi-Platform Chatbot with Qlik Sense Integration",
+      "description": "Chatbot system fetching live charts and KPIs from Qlik Sense, delivered across Microsoft Teams, Google Assistant, Alexa, WhatsApp, and Telegram from a single backend.",
+      "tech": "Node.js, Qlik Sense API, Dialogflow, Alexa Skills Kit, MS Bot Framework, WhatsApp API, Telegram API"
+    },
+    {
+      "name": "Video Framer",
+      "description": "Video generation system using FFMPEG that overlays doctor photos and names onto promotional videos for medical field representatives.",
+      "tech": "Node.js, FFMPEG, HTML, CSS, Bootstrap"
+    },
+    {
+      "name": "Multiplex Video Streaming Platform",
+      "description": "Full OTT platform where channel owners upload movies and web series; videos are transcoded via Bunny API into HLS format for adaptive streaming on Android and web.",
+      "tech": "Node.js, Bunny API, MongoDB"
+    },
+    {
+      "name": "Employee Dashboard",
+      "description": "Analytics dashboard tracking employee output across artwork, video, content, and web with artist-level and division-level drill-downs.",
+      "tech": "ReactJS, Node.js, MySQL"
+    },
+    {
+      "name": "Resync – Medical Education Platform",
+      "description": "Platform allowing doctors to consume instructional videos and complete post-watch quizzes for CME compliance tracking.",
+      "tech": "Node.js, MySQL"
+    },
+    {
+      "name": "Qlik Sense Annotation Extension",
+      "description": "Extension enabling object and chart-level annotations inside Qlik Sense dashboards for collaborative data storytelling.",
+      "tech": "Node.js, AngularJS, Qlik Sense Extension API"
+    },
+    {
+      "name": "Log Cluster – Log Visualisation Tool",
+      "description": "Web app to cluster and visualise large-scale log data from Elasticsearch, cutting mean-time-to-diagnose for operations teams.",
+      "tech": "Python, Node.js, Elasticsearch, EJS"
+    },
+    {
+      "name": "Tableau-to-Power BI Migration Tool",
+      "description": "Automated conversion of Tableau scripts to Power BI using LLM-assisted transformation pipelines, cutting migration effort by ~60%.",
+      "tech": "Node.js, ChatGPT API, ReactJS"
+    },
+    {
+      "name": "DataAccessAuditor Portal",
+      "description": "Full Qlik Sense Section Access management portal with role-based access control, audit logging, and data security enforcement.",
+      "tech": "Node.js, Microservices, ReactJS"
+    },
+    {
+      "name": "SaaS License Management System",
+      "description": "Machine-locked license generation and validation system binding each license cryptographically to the target hardware fingerprint.",
+      "tech": "Node.js, ReactJS"
+    },
+    {
+      "name": "Wowizer Windows Service",
+      "description": "Production-grade Windows installer and background service using InnoSetup and Pascal, ensuring secure API key handling and auto-startup via NSSM.",
+      "tech": "InnoSetup, Pascal, Node.js PKG, NSSM"
+    }
+  ]
+}

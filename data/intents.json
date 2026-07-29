@@ -1,0 +1,107 @@
+{
+  "about": [
+    "about",
+    "about me",
+    "who are you",
+    "introduce yourself",
+    "tell me about yourself",
+    "your story"
+  ],
+  "resume": [
+    "resume",
+    "cv",
+    "download cv",
+    "download resume",
+    "cover letter"
+  ],
+  "projects": [
+    "projects",
+    "portfolio",
+    "work",
+    "your work",
+    "show projects"
+  ],
+  "services": [
+    "services",
+    "what do you do",
+    "offerings",
+    "what services"
+  ],
+  "contact": [
+    "contact",
+    "contact me",
+    "reach you",
+    "email",
+    "phone",
+    "get in touch"
+  ],
+  "skills": [
+    "skills",
+    "tech stack",
+    "technologies",
+    "tools",
+    "programming languages",
+    "what tech"
+  ],
+  "experience": [
+    "experience",
+    "work experience",
+    "employment",
+    "job history",
+    "previous jobs"
+  ],
+  "education": [
+    "education",
+    "qualification",
+    "degree",
+    "academic",
+    "college",
+    "university"
+  ],
+  "timeline": [
+    "timeline",
+    "career timeline",
+    "journey",
+    "milestones",
+    "roadmap"
+  ],
+  "faq": [
+    "faq",
+    "questions",
+    "commonly asked",
+    "recruiter questions"
+  ],
+  "github": [
+    "github",
+    "repositories",
+    "repos",
+    "code",
+    "open source",
+    "github profile"
+  ],
+  "architecture": [
+    "architecture",
+    "bot architecture",
+    "how it works",
+    "tech stack diagram",
+    "system design"
+  ],
+  "interview": [
+    "interview",
+    "quiz",
+    "test me",
+    "assess me",
+    "questionnaire"
+  ],
+  "help": [
+    "help",
+    "menu",
+    "options",
+    "start",
+    "assist",
+    "what can you do",
+    "hi",
+    "hello",
+    "hey"
+  ]
+}
