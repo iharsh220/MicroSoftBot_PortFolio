@@ -12,7 +12,46 @@ const { TeamsBot } = require("./bot");
 
 const app = express();
 
-app.use(express.json());
+app.use(express.json({ limit: "20kb" }));
+
+// ---- Portfolio web chat (public/chat → /microsoft/api/messages/chat/) ----
+const { respond } = require("./services/webChat");
+
+// Tiny in-memory limiter: 40 messages / minute / IP
+const chatHits = new Map();
+setInterval(() => chatHits.clear(), 60 * 1000).unref();
+
+app.post("/microsoft/api/messages/chat/api", async (req, res) => {
+    const ip = req.headers["x-forwarded-for"]?.split(",")[0].trim() || req.socket.remoteAddress;
+    const hits = (chatHits.get(ip) || 0) + 1;
+    chatHits.set(ip, hits);
+    if (hits > 40) {
+        return res.status(429).json({ messages: [{ type: "text", text: "You're typing faster than I can think. Try again in a minute." }] });
+    }
+
+    try {
+        const { text, action } = req.body || {};
+        res.setHeader("Cache-Control", "no-store");
+        res.json(await respond({ text, action }));
+    } catch (err) {
+        console.error("Web chat error:", err);
+        res.status(500).json({ messages: [{ type: "text", text: "Something went wrong on my side. Please try again." }] });
+    }
+});
+
+// Data Access Auditor Windows app (named download, correct filename)
+app.get("/microsoft/api/messages/download/data-access-auditor", (req, res) => {
+    res.download(
+        path.join(__dirname, "public/assets/executive/Windows_Executive_Data_Access_Auditor/DataAccessAuditor.exe"),
+        "DataAccessAuditor.exe"
+    );
+});
+
+// Demo videos: long cache + byte-range streaming (express.static supports Range)
+app.use(
+    "/microsoft/api/messages/demos",
+    express.static(path.join(__dirname, "public/demos"), { maxAge: "30d", immutable: true })
+);
 
 // Serve static files
 app.use(

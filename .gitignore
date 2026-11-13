@@ -119,3 +119,9 @@ ecosystem.config.js
 #Killo code
 .kilo/
 node_modules
+
+# Claude Code project notes (kept local, reused across projects)
+CLAUDE.md
+
+# Raw demo recordings (.wmv, ~900 MB). Web-ready copies live in public/demos/
+public/assets/videos/

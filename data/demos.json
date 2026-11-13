@@ -1,0 +1,42 @@
+{
+  "base": "/microsoft/api/messages/demos",
+  "projects": [
+    {
+      "id": "daa",
+      "icon": "🔐",
+      "name": "Data Access Auditor",
+      "tagline": "Qlik Sense security auditing",
+      "description": "A Windows desktop tool that audits Qlik Sense security: validates QMC rules, data-connection, session and sheet-level access for any user, so admins can prove who can see what before it hits production.",
+      "stack": ["Node.js", "ReactJS", "Qlik QRS API", "Windows"],
+      "download": {
+        "href": "/microsoft/api/messages/download/data-access-auditor",
+        "label": "Download for Windows",
+        "meta": "DataAccessAuditor.exe · 1.7 MB",
+        "note": "Windows 10/11 only. SmartScreen may ask you to confirm: click “More info → Run anyway”."
+      },
+      "videos": [
+        { "file": "daa/01-overview", "duration": 172, "title": "Everything you need to know", "desc": "A tour of Data Access Auditor: what it audits, who it is for, and how it fits into a Qlik Sense governance workflow." },
+        { "file": "daa/02-get-it-free", "duration": 170, "title": "Get it for free", "desc": "How to request and download the free edition of the tool." },
+        { "file": "daa/03-installation", "duration": 721, "title": "Installation, step-by-step", "desc": "Installing the app on Windows and connecting it to a Qlik Sense server." },
+        { "file": "daa/04-configure", "duration": 231, "title": "Configure access control", "desc": "Fine-tuning certificates, endpoints and user directories." },
+        { "file": "daa/05-qmc-rules", "duration": 459, "title": "Validate QMC security rules", "desc": "See exactly which QMC security rules grant or block access for a given user." },
+        { "file": "daa/06-data-connection-access", "duration": 252, "title": "Data connection access", "desc": "Validate which data connections each user can read, update or delete." },
+        { "file": "daa/07-session-access", "duration": 182, "title": "Session access", "desc": "Audit session-level access rules per user to catch over-permissioned accounts." },
+        { "file": "daa/08-sheet-access", "duration": 90, "title": "Check sheet access", "desc": "Confirm which users can open which sheets in an app." }
+      ]
+    },
+    {
+      "id": "qlik-bots",
+      "icon": "🤖",
+      "name": "Qlik Chatbots",
+      "tagline": "BI answers in any chat app",
+      "description": "One Node.js backend that turns natural-language questions into live Qlik Sense charts and KPIs, delivered on Microsoft Teams, WhatsApp, Alexa, Google Assistant and Telegram.",
+      "stack": ["Node.js", "Qlik Sense API", "Dialogflow", "MS Bot Framework", "WhatsApp API", "Alexa Skills"],
+      "videos": [
+        { "file": "qlik-bots/teams", "duration": 182, "title": "Microsoft Teams bot", "desc": "Ask for KPIs inside Teams and get guided suggestions plus live Qlik charts back in the conversation." },
+        { "file": "qlik-bots/whatsapp", "duration": 58, "title": "WhatsApp bot", "desc": "The bot replies on WhatsApp with a rendered chart, last-reload time and narrative." },
+        { "file": "qlik-bots/alexa", "duration": 101, "title": "Alexa voice skill", "portrait": true, "desc": "Ask Alexa for a metric and hear the answer read straight from Qlik Sense." }
+      ]
+    }
+  ]
+}

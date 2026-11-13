@@ -1,3 +1,5 @@
+const { projects } = require("../data/projects.json");
+
 function getProjectsCard() {
     return {
         type: "AdaptiveCard",
@@ -11,7 +13,7 @@ function getProjectsCard() {
             },
             {
                 type: "TextBlock",
-                text: "• Multi-Platform Chatbot with Qlik Sense Integration\n• Video Framer (FFMPEG-based promotional video generator)\n• Multiplex Video Streaming Platform (OTT with Bunny API)\n• Employee Dashboard (ReactJS · Node.js · MySQL)\n• Resync – Medical Education Platform\n• Qlik Sense Annotation Extension\n• Log Cluster – Log Visualisation Tool\n• Tableau-to-Power BI Migration Tool\n• DataAccessAuditor Portal\n• SaaS License Management System\n• Wowizer Windows Service",
+                text: projects.map((p) => `• **${p.name}** (${p.tech.split(",").slice(0, 3).map((t) => t.trim()).join(", ")})`).join("\n"),
                 wrap: true,
                 spacing: "Small"
             }

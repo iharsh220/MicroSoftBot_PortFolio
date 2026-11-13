@@ -1,0 +1,124 @@
+{
+  "name": "Harsh Gohil",
+  "role": "Senior Backend Developer & Full Stack Engineer",
+  "company": "Alembic Pharmaceuticals",
+  "location": "Mumbai, Maharashtra, India",
+  "status": "Open to work",
+  "summary": "Results-driven Senior Backend Developer with 8+ years designing and delivering scalable, enterprise-grade SaaS products across pharmaceuticals, analytics and media. I architect end-to-end, from API design and database modelling to cloud deployment, as a team lead and independently. Deep expertise in Node.js, microservices and cloud (AWS, Azure, GCP), with hands-on chatbot development, BI tool integration and real-time video processing.",
+  "stats": [
+    {
+      "value": "8+",
+      "label": "Years"
+    },
+    {
+      "value": "14",
+      "label": "Projects"
+    },
+    {
+      "value": "6",
+      "label": "Team led"
+    },
+    {
+      "value": "5",
+      "label": "Bot channels"
+    }
+  ],
+  "files": {
+    "resume": "/microsoft/api/messages/files/resume/Harsh_Gohil_Backend_Enginner_.pdf",
+    "coverLetter": "/microsoft/api/messages/files/resume/Harsh_Gohil_Cover_Letter.pdf"
+  },
+  "contact": [
+    {
+      "kind": "email",
+      "label": "Email",
+      "value": "iharsh220@zohomail.in",
+      "href": "mailto:iharsh220@zohomail.in"
+    },
+    {
+      "kind": "phone",
+      "label": "Phone",
+      "value": "+91 80803 02041",
+      "href": "tel:+918080302041"
+    },
+    {
+      "kind": "linkedin",
+      "label": "LinkedIn",
+      "value": "in/harsh-gohil-242706194",
+      "href": "https://linkedin.com/in/harsh-gohil-242706194"
+    },
+    {
+      "kind": "github",
+      "label": "GitHub",
+      "value": "github.com/iharsh220",
+      "href": "https://github.com/iharsh220"
+    },
+    {
+      "kind": "location",
+      "label": "Location",
+      "value": "Mumbai, India",
+      "href": ""
+    }
+  ],
+  "githubUser": "iharsh220",
+  "services": [
+    {
+      "icon": "bot",
+      "title": "Bot Development",
+      "desc": "Teams, WhatsApp, Alexa and AI chatbots from one backend."
+    },
+    {
+      "icon": "server",
+      "title": "Backend Engineering",
+      "desc": "Node.js APIs and microservices that stay fast under load."
+    },
+    {
+      "icon": "cloud",
+      "title": "Cloud & DevOps",
+      "desc": "AWS, Azure, Nginx, PM2 and CI/CD deployments."
+    },
+    {
+      "icon": "spark",
+      "title": "AI & Automation",
+      "desc": "LLM pipelines, RAG and custom AI workflows."
+    }
+  ],
+  "architecture": [
+    {
+      "title": "Browser / Teams",
+      "desc": "Web chat on the portfolio, or Microsoft Teams"
+    },
+    {
+      "title": "Express server",
+      "desc": "Node.js · /api/messages and /chat/api"
+    },
+    {
+      "title": "Bot Framework SDK",
+      "desc": "CloudAdapter + ActivityHandler (Teams channel)"
+    },
+    {
+      "title": "Intent router",
+      "desc": "Keyword + FAQ + skill matching"
+    },
+    {
+      "title": "Handlers",
+      "desc": "One module per topic"
+    },
+    {
+      "title": "Cards + JSON data",
+      "desc": "Adaptive Cards for Teams, rich cards for the web"
+    }
+  ],
+  "fullName": "Harsh Dhirubhai Gohil",
+  "languages": [
+    "Gujarati (Native)",
+    "Hindi (Fluent)",
+    "Marathi (Fluent)",
+    "English (Professional)"
+  ],
+  "interests": [
+    "Emerging tech & R&D",
+    "Open-source exploration",
+    "Cricket",
+    "PC gaming"
+  ]
+}

@@ -2,12 +2,11 @@ const https = require('https');
 
 function getGithubUrl(path) {
   const token = process.env.GITHUB_TOKEN;
-  const owner = process.env.GITHUB_OWNER || 'harshgohil';
-  const repo = process.env.GITHUB_REPO || 'micro-soft-bot-port-folio';
+  const owner = process.env.GITHUB_OWNER || 'iharsh220';
 
   return {
     hostname: 'api.github.com',
-    path: `/repos/${owner}/${repo}${path}`,
+    path: `/users/${owner}${path}`,
     headers: {
       'User-Agent': 'PortfolioBot',
       ...(token ? { Authorization: `Bearer ${token}` } : {})
@@ -34,7 +33,7 @@ function httpsGet(url) {
 }
 
 async function getRepositories() {
-  const url = getGithubUrl('/repos');
+  const url = getGithubUrl('/repos?sort=updated&per_page=10');
 
   try {
     const response = await httpsGet(url);
